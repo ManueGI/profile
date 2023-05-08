@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+  background-color: #F3DEBA;
+  background-size: 100%;
+}
+
+.container{
+  width: 800px;
+  margin: 20px auto;
+  padding: 0px;
+}
+
+@media (max-width: 800px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 650px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+h1{
+  color:#675D50;
+  font-family: "roboto slab", serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0;
+}
+
+.button{
+  background-color: #A9907E;
+  color: white;
+  font-family: "roboto", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #E7AB9A;
+}
+
+h2{
+  color: #675D50;
+  font-family: "roboto slab", serif;
+  margin: 0;
+}
+
+.img-circle{
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.list-inline > li{
+  display:inline-block;
+  padding: 0 20px;
+  margin: 0;
+}
+
+p{
+  font-family: "roboto", sans-serif;
+  color: #A9907E;
+  letter-spacing: 1px;
+  margin: 30px auto;
+  }
+
+.icon{
+  font-size: 30px;
+  color: #675D50;
+}
+
+.card-white{
+
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #A9907E;
+}
+
+.shadowed {
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.text-center{
+  text-align: center;
+}
